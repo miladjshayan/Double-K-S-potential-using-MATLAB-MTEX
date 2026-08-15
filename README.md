@@ -22,7 +22,7 @@ The EBSD data import is not included directly in these scripts because the cryst
 The EBSD data should first be imported using the MTEX Import Wizard. The Import Wizard automatically generates an import script to load the EBSD dataset.
 After importing the data, make sure that the ferrite phase is named BCC in MATLAB. The code uses ebsd('BCC') to access the ferrite orientations.
 
-## The general workflow is:
+## General workflow
 
 Import the EBSD dataset using the MTEX Import Wizard.
 Check the crystal phases and assign the ferrite phase the name BCC.
