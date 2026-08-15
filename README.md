@@ -18,9 +18,9 @@ The output includes the double K-S potential for each reference α₁ orientatio
 
 ### Before Running the Codes
 
-The EBSD data import is not included directly in these scripts because the crystal symmetry, phase order, and specimen coordinate system can be different for different EBSD datasets.
-The EBSD data should first be imported using the MTEX Import Wizard. The Import Wizard automatically generates an import script that can be used to load the EBSD dataset.
-After importing the data, make sure that the ferrite phase is named "BCC" in MATLAB. The code uses ebsd('BCC') to access the ferrite orientations.
+The EBSD data import is not included directly in these scripts because the crystal symmetry, phase order, and specimen coordinate system can vary across EBSD datasets.
+The EBSD data should first be imported using the MTEX Import Wizard. The Import Wizard automatically generates an import script to load the EBSD dataset.
+After importing the data, make sure that the ferrite phase is named BCC in MATLAB. The code uses ebsd('BCC') to access the ferrite orientations.
 
 ## The general workflow is:
 
@@ -31,7 +31,7 @@ Run the appropriate double K-S potential code.
 
 ## Output
 
-the double K-S potential along the selected texture fiber;
+The double K-S potential along the selected texture fiber;
 CSV files containing the candidate α₂ orientations;
 ODF-based statistics for the candidate α₂ orientations;
 Plot showing the variation of the double K-S potential along the selected fiber.
