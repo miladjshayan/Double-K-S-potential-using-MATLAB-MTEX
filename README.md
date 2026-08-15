@@ -42,7 +42,7 @@ Plot showing the variation of the double K-S potential along the selected fiber.
 The main output files are saved in a results folder created by the script.
 
 
-Note on the Code
+## Note on the Code
 
 The original calculation code was developed for the analysis presented in the associated study. The code was subsequently revised with an AI assistant to improve its organization, comments, and readability for sharing with other researchers.
 
