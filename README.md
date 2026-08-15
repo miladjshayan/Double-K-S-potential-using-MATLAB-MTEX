@@ -32,8 +32,11 @@ Run the appropriate double K-S potential code.
 ## Output
 
 The double K-S potential along the selected texture fiber;
+
 CSV files containing the candidate α₂ orientations;
+
 ODF-based statistics for the candidate α₂ orientations;
+
 Plot showing the variation of the double K-S potential along the selected fiber.
 
 The main output files are saved in a results folder created by the script.
