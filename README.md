@@ -9,9 +9,9 @@ The methodology and mathematical definition of the double K-S potential are desc
 
 Two MATLAB scripts are provided:
 
-double_KS_potential_alpha_fiber.m — Calculates the double K-S potential along the α-fiber (<110> || RD).
+double_KS_potential_alpha_fiber.m (Calculates the double K-S potential along the α-fiber (<110> || RD))
 
-double_KS_potential_gamma_fiber.m — Calculates the double K-S potential along the γ-fiber ({111} || ND).
+double_KS_potential_gamma_fiber.m  (Calculates the double K-S potential along the γ-fiber ({111} || ND))
 
 The codes calculate the ferrite (BCC) ODF from the imported EBSD data and then evaluate the double K-S potential along the selected texture fiber.
 The output includes the double K-S potential for each reference α₁ orientation along the fiber and CSV files containing the corresponding candidate α₂ orientations and their corresponding calculations.
