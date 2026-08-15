@@ -25,8 +25,11 @@ After importing the data, make sure that the ferrite phase is named BCC in MATLA
 ## General workflow
 
 Import the EBSD dataset using the MTEX Import Wizard.
+
 Check the crystal phases and assign the ferrite phase the name BCC.
+
 Check the specimen reference frame and apply the required rotation, if required.
+
 Run the appropriate double K-S potential code.
 
 ## Output
